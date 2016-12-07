@@ -263,85 +263,67 @@ def Oscar_Best_Adapted_Screenplay(year):
 
 
 
+def main():
 
-# # make main function
+    print('The winner for best actor [and his respective film] was...')
+    print(Oscar_Best_Actor(2001))  
 
-# print('The winner for best actor [and his respective film] was...')
-# print(Oscar_Best_Actor(2001))  
+    print('\n')
 
+    print('The winner for best supporting actor [and his respective film] was...')
+    print(Oscar_Best_Supporting_Actor(2001))
 
-# print('\n')
+    print('\n')
 
+    print('The winner for best actress [and her respective film] was...')
+    print(Oscar_Best_Actress(2001))
 
-# print('The winner for best supporting actor [and his respective film] was...')
-# print(Oscar_Best_Supporting_Actor(2001))
+    print('\n')
 
+    print('The winner for best supporting actress [and her respective film] was...')
+    print(Oscar_Best_Supporting_Actress(2001))
 
-# print('\n')
+    print('\n')
 
+    print('The winner for best director [and their respective film] was...')
+    print(Oscar_Best_Director(2001))
 
-# print('The winner for best actress [and her respective film] was...')
-# print(Oscar_Best_Actress(2001))
+    print('\n')
 
+    print('The winner for best animated feature was...')
+    print(Oscar_Best_Animated_Feature(2008))
 
-# print('\n')
+    print('\n')
 
+    print('The winner for best picture was...')
+    print(Oscar_Best_Picture(2008))
 
-# print('The winner for best supporting actress [and her respective film] was...')
-# print(Oscar_Best_Supporting_Actress(2001))
+    print('\n')
 
+    print('The winner for original song was...')
+    print(Oscar_Best_Original_Song(2015))
 
-# print('\n')
+    print('\n')
 
+    print('The winner for original score was...')
+    print(Oscar_Best_Original_Score(2011))
 
-# print('The winner for best director [and their respective film] was...')
-# print(Oscar_Best_Director(2001))
+    print('\n')
 
+    print('The winner for best visual effects was...')
+    print(Oscar_Best_Visual_Effects(2011))
 
-# print('\n')
+    print('\n')
 
+    print('The winner for best original screenplay was...')
+    print(Oscar_Best_Original_Screenplay(2022))
 
-# print('The winner for best animated feature was...')
-# print(Oscar_Best_Animated_Feature(2008))
+    print('\n')
 
-
-# print('\n')
-
-
-# print('The winner for best picture was...')
-# print(Oscar_Best_Picture(2008))
-
-
-# print('\n')
-
-
-# print('The winner for original song was...')
-# print(Oscar_Best_Original_Song(2015))
-
-
-# print('\n')
-
-
-# print('The winner for original score was...')
-# print(Oscar_Best_Original_Score(2011))
+    print('The winner for best adapted screenplay was...')
+    print(Oscar_Best_Adapted_Screenplay(2001))
 
 
-# print('\n')
-
-
-# print('The winner for best visual effects was...')
-# print(Oscar_Best_Visual_Effects(2011))
-
-
-# print('\n')
-
-
-# print('The winner for best original screenplay was...')
-# print(Oscar_Best_Original_Screenplay(2022))
-
-
-# print('\n')
-
-
-# print('The winner for best adapted screenplay was...')
-# print(Oscar_Best_Adapted_Screenplay(2001))
+if __name__ == '__main__':
+    main()
+    
