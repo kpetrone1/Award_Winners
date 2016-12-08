@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config['DEBUG'] = True
 
 
-@app.route('/',methods=['GET','POST'])
+@app.route('/', methods=['GET', 'POST'])
 def find_winner():
     form = InputForm(request.form)
     if request.method == 'POST' and form.validate():
@@ -43,9 +43,9 @@ def find_winner():
         else:
             result = "The award you are seeking is not available."
         print(year)
-        return render_template('results.htm', award = award, year = year, result = result)
-    return render_template('home.htm', form = form)
+        return render_template('results.htm', award=award, year=year, result=result)
+    return render_template('home.htm', form=form)
 
 
 if __name__ == '__main__':
-    app.run(host ='127.0.0.1', port=5000)
+    app.run()
