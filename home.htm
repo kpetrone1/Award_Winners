@@ -22,8 +22,9 @@
 
   <body>
 	<h1 id="mainh"> OSCAR Award Winners </h1>
-    <p id="firstp"> Find the award winners for any given year. </p> 
-       <form id="Input Form"; method="POST">
+    <p id="firstp"> 
+        Find the award winners for the year of the film's production date. Please note that the acceptable range of years is 2000 to 2015. <span style = "font-size: 12px"><br> Caution: Please input the year the film was produced (not the year the Oscar was presented). <br> For example, inputting "2015" and "best actor" will output Leonardo DiCaprio (who was presented with the Oscar in the following year of 2016).</p></span>
+               <form id="Input Form"; method="POST">
         <table>
             {% for field in form %}
             <tr>

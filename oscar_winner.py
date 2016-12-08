@@ -40,7 +40,7 @@ best_director_list = {2000: 'Steven Soderbergh (Traffic)', 2001: 'Ron Howard (A 
                     2014: 'Alejandro González Iñárritu (Birdman)', 2015: 'Alejandro González Iñárritu (The Revenant)'}
 
 
-best_animated_feature_list = {2000: 'This award was not yet created', 2001: 'Shrek', 2002: 'Spirited Away', 2003: 'Finding Nemo',
+best_animated_feature_list = {2000: 'unavailable because the award had not yet been created', 2001: 'Shrek', 2002: 'Spirited Away', 2003: 'Finding Nemo',
                             2004: 'The Incredibles', 2005: 'Wallace & Gromit: The Curse of the Were-Rabbit', 2006: 'Happy Feet',
                             2007: 'Ratatouille', 2008: 'WALL-E', 2009: 'Up', 2010: 'Toy Story 3', 2011: 'Rango', 
                             2012: 'Brave', 2013: 'Frozen', 2014: 'Big Hero 6', 2015: 'Inside Out'}
@@ -326,4 +326,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
